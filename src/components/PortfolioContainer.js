@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
         <div>
             <Navigate currentPage={currentPage} handlePageChange={handlePageChange} />
             <Row>
-                <Col size='md-10 lg-8'>
+                <Col size='md-10'>
                     {renderPage()}
                 </Col>
             </Row>

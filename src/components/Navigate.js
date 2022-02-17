@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigate({ currentPage, handlePageChange }) {
     return (
-        <nav className='bg-info pt-5 border-bottom border-5 border-success fs-4'>
+        <nav className='bg-info pt-5 border-bottom border-5 border-success fs-4 mb-5'>
             <ul className='nav nav-tabs justify-content-center border-0'>
                 <li className='nav-item'>
                     <a

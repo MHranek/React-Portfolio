@@ -1,0 +1,44 @@
+/*  */
+/* Card IDs, add background-image for each new entry */
+/*  */
+
+#teamdex {
+    background-image:url("../images/teamdex.png");
+    background-size:cover;
+    background-position: top;
+    height:400px;
+}
+
+#css-cheat-sheet {
+    background-image:url("../images/css_cheat_sheet.jpg");
+    background-size:cover;
+    background-position: top;
+}
+
+#password-generator {
+    background-image:url("../images/password_generator.png");
+    background-size:cover;
+    background-position: top;
+}
+
+#weather-dashboard {
+    background-image:url("../images/Weather_Dashboard.png");
+    background-size:cover;
+    background-position: center;
+}
+
+#movie-hype-generator {
+    background-image:url("../images/movie_hype_generator.png");
+    background-size:cover;
+    background-position: top;
+}
+
+/*  */
+/* End Card IDs */
+/*  */
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
