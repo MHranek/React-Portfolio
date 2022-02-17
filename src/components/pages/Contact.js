@@ -3,12 +3,21 @@ import React from 'react';
 function Contact() {
     return (
         <div>
-            <ul className='list-group list-group-horizontal justify-content-center fs-5 my-5'>
-                <li className='list-group-item'>610-304-6516</li>
-                <li className='list-group-item'><a href="mailto:mhranekdev@gmail.com">mhranekdev@gmail.com</a></li>
-                <li className='list-group-item'><a href="https://github.com/MHranek" target='_blank' rel='noreferrer'>GitHub</a></li>
-                <li className='list-group-item'><a href="https://www.linkedin.com/in/michael-hranek/" target='_blank' rel='noreferrer'>Linkedin</a></li>
-            </ul>
+            <form className='mx-3'>
+                <div className='my-3'>
+                    <label for="nameInput" className='form-label'>Name:</label>
+                    <input id="nameInput" className='form-control' type="text"></input>
+                </div>
+                <div className='mb-3'>
+                    <label for="emailInput" className='form-label'>Email:</label>
+                    <input id="emailInput" className='form-control' type="email"></input>
+                </div>
+                <div className='mb-3'>
+                    <label for='messageInput' className='form-label'>Message:</label>
+                    <textarea id='messageInput' className='form-control' rows='8'></textarea>
+                </div>
+                <button className='btn btn-success' type="submit">Send</button>
+            </form>
         </div>
     )
 }

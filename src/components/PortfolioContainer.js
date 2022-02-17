@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Navigate from './Navigate';
 import Col from '../utils/Col';
 import Row from '../utils/Row';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -32,6 +33,7 @@ export default function PortfolioContainer() {
                     {renderPage()}
                 </Col>
             </Row>
+            <Footer />
         </div>
     )
 }
