@@ -5,11 +5,11 @@ import Contact from './pages/Contact';
 import Navigate from './Navigate';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About Me');
+    const [currentPage, setCurrentPage] = useState('About');
 
     // render function returns the html snippet of what page the user is on
     const renderPage = () => {
-        if (currentPage === 'About Me') {
+        if (currentPage === 'About') {
             return <About />;
         }
         if (currentPage === 'Portfolio') {
