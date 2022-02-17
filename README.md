@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # MHranek Portfolio
 ## Description
-This is my portfolio, updated with React.
+My new [Portfolio](https://mhranek.github.io/react-portfolio), updated using React.
 ![Portfolio Screenshot](./src/images/React_Portfolio.png)
 
 ## License
