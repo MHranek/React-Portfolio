@@ -32,9 +32,10 @@ function Navigate({ currentPage, handlePageChange }) {
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <a
-                        href='#Placeholder' // TODO Link to Resume
-                        className='nav-link text-dark'
+                <a
+                        href='#Resume'
+                        onClick={() => handlePageChange('Resume')}
+                        className={`${currentPage === 'Resume' ? 'nav-link active bg-success border-0' : 'nav-link'} text-dark`}
                     >
                         Resume
                     </a>
