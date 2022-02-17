@@ -4,7 +4,8 @@ import './Project.css'
 const styles = {
     card: {
         flex: '1 0 45%',
-        margin: '20px'
+        margin: '20px',
+        height: '400px'
     },
     text: {
         backgroundColor: '#3DB6FF',
